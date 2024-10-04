@@ -1,28 +1,36 @@
-<h1 align="center">Luta JS</h1>
+# ⚔️ Battle Arena
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Deployment</a>
-</p>
+This project simulates a battle between different characters, including knights, sorcerers, and monsters. Players can attack each other and see how their health changes in real time.
 
+## ✨ Features
 
-## 🚀 Tecnologias
+- 🎮 Character selection: Choose between different characters with unique abilities.
+- ⚔️ Real-time battle: Attack opponents and see health updates immediately.
+- 📜 Log messages: View a log of actions and events during the battle.
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## 🚀 Technologies Used
 
-- HTML5 
-- CSS3
-- JS (POO) 
+- **HTML5**: Structure of the webpage.
+- **CSS3**: Styling and layout.
+- **JavaScript (OOP)**: Object-oriented programming to manage character interactions and battles.
 
-## 💻 Projeto
+## 🛠️ Installation and Usage
 
-O projeto consiste em uma página HTML que simula uma luta entre dois personagens usando conceitos de Programação Orientada a Objetos (POO) onde o jogador pode atacar o inimigo. A vida dos personagens é exibida visualmente por meio das barras de vida, e as ações são registradas em um log.
+To install and run the project, follow these steps:
 
-## ☁️ Deployment
+```bash
+git clone https://github.com/kaiokampos/Lutinha-js.git
+cd lutinhaJS
+open index.html  # Or use a local server to view the project
 
-Você pode visualizar os deploys do projeto através desses links:
-
-
----
-Desenvolvido por KaioKampos
+📂 Project Structure
+LutinhaJS/
+│
+├── assets/               # Contém arquivos estáticos
+│   ├── css/              # Arquivos de estilo
+│   │   └── style.css     # Estilos principais
+│   ├── img/              # Imagens
+│   └── js/               # Arquivos JavaScript
+│       └── clima.js      # Lógica principal da aplicação
+├── index.html            # Arquivo HTML principal
+└── README.md             # Documentação do projeto
